@@ -21,11 +21,14 @@ body{
 header{
    background-color: #5b3a29;
    color: #fffaf3 ;
-   padding: 16px 24px;
+   padding: 20px 24px; /* added more padding to fitt the buttens*/
+   
   
 }
 header h1{
-   color: #fffaf3
+   color: #fffaf3;
+   margin: 0 auto;
+   
 }
 a{
  text-decoration: none;
@@ -43,6 +46,10 @@ nav ul{
     margin: 0;
    padding: 0;
    list-style: none;
+}
+nav ul li{
+   float: left;
+   margin: 0 10px;
 }
 main{
  text-align: center; 
@@ -76,6 +83,9 @@ article img{
    border-style: solid;
   
 }
+.knapp:hover{
+   background-color: #6f0c0c;
+}
 #hero{
    background-color:#f3e3cf ;
 }
@@ -88,5 +98,17 @@ article:nth-child(2){
 } 
 article:nth-child(2) h3{
    color: #f3e3cf;
+}
+article:nth-child(2) .pris{
+   background-color: #fffaf3;
+   
+}
+.pris{
+   color: #8c1010;
+   padding: 3px;
+border: 1px;
+border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto;
 }
 
